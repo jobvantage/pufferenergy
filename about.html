@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Us - Puffer Energy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 left-0 w-full bg-[#0A1A2F]/90 backdrop-blur-lg z-50 shadow-md">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4 text-white">
+
+    <!-- Logo -->
+    <h1 class="text-2xl font-bold">Puffer Energy</h1>
+
+    <!-- NAV LINKS -->
+    <ul class="hidden md:flex gap-6 text-lg font-medium">
+      <li><a href="index.html" class="hover:text-[#16A34A] duration-300">Home</a></li>
+      <li><a href="about.html" class="hover:text-[#16A34A] duration-300">About</a></li>
+      <li><a href="services.html" class="hover:text-[#16A34A] duration-300">Services</a></li>
+    </ul>
+
+    <!-- REQUEST QUOTE BUTTON (RIGHT END) -->
+    <button onclick="openQuoteModal()" 
+      class="ml-6 bg-[#F97316] px-5 py-2 rounded-lg font-semibold hover:bg-orange-700 duration-300">
+      Request Quote
+    </button>
+
+  </div>
+</nav>
+<div class="h-20"></div> <!-- page offset -->
+
+
+<!-- HERO SECTION -->
+<section class="bg-[#0A1A2F] text-white py-24 text-center">
+  <h1 class="text-5xl font-bold mb-4">About Puffer Energy</h1>
+  <p class="text-lg max-w-3xl mx-auto">
+    Driving innovation across oil, gas, renewable energy, and environmentally sustainable fuel technology.
+  </p>
+</section>
+
+<!-- COMPANY INTRO -->
+<section class="max-w-7xl mx-auto py-20 px-6 grid md:grid-cols-2 gap-14">
+  
+  <div class="space-y-6">
+    <h2 class="text-4xl font-bold text-[#0A1A2F]">Who We Are</h2>
+    <p class="text-gray-700 leading-relaxed">
+      Puffer Energy is a forward-thinking energy company focused on transforming how the world generates, distributes,
+      and consumes energy. We operate at the intersection of traditional oil & gas and modern renewable technologies to
+      create sustainable, reliable, and affordable energy solutions.
+    </p>
+
+    <p class="text-gray-700 leading-relaxed">
+      Our mission is to build a greener future by embracing innovation, adopting bio-fuel advancements, and promoting
+      environmental preservation in every project we undertake.
+    </p>
+  </div>
+
+  <div class="rounded-xl shadow-xl overflow-hidden">
+    <img src="assets/img/about-energy.jpg" alt="Energy" class="w-full h-full object-cover" />
+  </div>
+
+</section>
+
+<!-- MISSION & VISION -->
+<section class="max-w-7xl mx-auto py-10 px-6 grid md:grid-cols-2 gap-10">
+
+  <div class="bg-[#16A34A] text-white p-10 rounded-xl shadow-lg">
+    <h3 class="text-3xl font-bold mb-4">Our Mission</h3>
+    <p>
+      To deliver high-quality and sustainable energy solutions that power industries, communities, and innovations while
+      preserving the environment for future generations.
+    </p>
+  </div>
+
+  <div class="bg-[#F97316] text-white p-10 rounded-xl shadow-lg">
+    <h3 class="text-3xl font-bold mb-4">Our Vision</h3>
+    <p>
+      To become a global leader in the energy transition by bridging the gap between traditional fossil fuels and
+      renewable alternatives.
+    </p>
+  </div>
+
+</section>
+
+<!-- OUR VALUES -->
+<section class="max-w-7xl mx-auto py-20 px-6">
+  <h2 class="text-4xl font-bold text-center mb-12 text-[#0A1A2F]">Our Core Values</h2>
+
+  <div class="grid md:grid-cols-3 gap-10">
+
+    <div class="p-6 shadow-lg rounded-xl bg-white hover:-translate-y-2 duration-300">
+      <h3 class="text-xl font-bold text-[#16A34A] mb-3">Sustainability</h3>
+      <p class="text-gray-700">We prioritize eco-friendly solutions and minimize carbon footprints in every operation.</p>
+    </div>
+
+    <div class="p-6 shadow-lg rounded-xl bg-white hover:-translate-y-2 duration-300">
+      <h3 class="text-xl font-bold text-[#F97316] mb-3">Innovation</h3>
+      <p class="text-gray-700">We embrace modern technologies to create smarter, cleaner energy systems.</p>
+    </div>
+
+    <div class="p-6 shadow-lg rounded-xl bg-white hover:-translate-y-2 duration-300">
+      <h3 class="text-xl font-bold text-[#0A1A2F] mb-3">Integrity</h3>
+      <p class="text-gray-700">We operate transparently and uphold excellence in every business decision.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#0A1A2F] text-white py-10 mt-20">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-10 px-6">
+    <div>
+      <h3 class="text-2xl font-bold mb-3">Puffer Energy</h3>
+      <p class="text-gray-300">Powering a sustainable world.</p>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-xl mb-3">Quick Links</h3>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="index.html" class="hover:text-[#16A34A]">Home</a></li>
+        <li><a href="about.html" class="hover:text-[#16A34A]">About</a></li>
+        <li><a href="services.html" class="hover:text-[#16A34A]">Services</a></li>
+        <li><a href="request-quote.html" class="hover:text-[#16A34A]">Request Quote</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-xl mb-3">Contact</h3>
+      <p class="text-gray-300">info@pufferenergy.com</p>
+      <p class="text-gray-300">+234 000 000 0000</p>
+    </div>
+  </div>
+
+  <div class="text-center mt-10 text-gray-400">
+    © 2025 Puffer Energy. All rights reserved.
+  </div>
+</footer>
+
+<!-- QUOTE MODAL BACKDROP -->
+<div id="quoteModal" class="hidden fixed inset-0 bg-black/60 backdrop-blur-sm flex justify-center items-center z-50">
+
+  <!-- MODAL CONTAINER -->
+  <div class="bg-white w-full max-w-xl p-8 rounded-xl shadow-2xl animate-[fadeIn_0.4s]">
+
+    <h2 class="text-3xl font-bold text-[#0A1A2F] mb-6">Request a Quote</h2>
+
+    <form class="space-y-5">
+
+      <div>
+        <label class="font-semibold">Full Name</label>
+        <input type="text" class="w-full p-3 border rounded-lg mt-1" placeholder="Enter your name" required>
+      </div>
+
+      <div>
+        <label class="font-semibold">Email Address</label>
+        <input type="email" class="w-full p-3 border rounded-lg mt-1" placeholder="Enter your email" required>
+      </div>
+
+      <div>
+        <label class="font-semibold">Service Needed</label>
+        <select class="w-full p-3 border rounded-lg mt-1" required>
+          <option>Oil & Gas Supply</option>
+          <option>Renewable Energy Installation</option>
+          <option>Bio-Fuel Production</option>
+          <option>Energy Consultation</option>
+          <option>System Maintenance</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="font-semibold">Additional Details</label>
+        <textarea class="w-full p-3 border rounded-lg mt-1" rows="4" placeholder="Tell us more about your project"></textarea>
+      </div>
+
+      <button type="submit" 
+        class="w-full bg-[#16A34A] text-white py-3 font-semibold rounded-lg hover:bg-green-700 duration-300">
+        Submit Request
+      </button>
+
+    </form>
+
+    <!-- CLOSE BUTTON -->
+    <button onclick="closeQuoteModal()" 
+      class="mt-6 block w-full text-center text-red-500 font-semibold hover:text-red-700">
+      Close
+    </button>
+
+  </div>
+</div>
+
+<script>
+  function openQuoteModal() {
+    document.getElementById("quoteModal").classList.remove("hidden");
+  }
+
+  function closeQuoteModal() {
+    document.getElementById("quoteModal").classList.add("hidden");
+  }
+</script>
+
+</body>
+</html>
